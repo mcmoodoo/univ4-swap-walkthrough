@@ -44,7 +44,7 @@ contract UniV4Swap is Test {
         hooks: IHooks(address(0))
     });
 
-     PoolKey ETH_USDC_KEY = PoolKey({
+    PoolKey ETH_USDC_KEY = PoolKey({
         currency0: Currency.wrap(ETH),
         currency1: Currency.wrap(USDC_ADDRESS),
         fee: 3000,
