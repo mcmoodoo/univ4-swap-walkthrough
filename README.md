@@ -2,7 +2,10 @@
 
 ## Usage
 
+Install foundry:
 https://book.getfoundry.sh/
+
+Copy `.env.example` to `.env` and add your rpc url
 
 
 ### Build
