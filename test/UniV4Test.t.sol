@@ -4,8 +4,8 @@ pragma solidity 0.8.26;
 import {Test} from "forge-std/Test.sol";
 
 // had some troble compiling the universal-router repo so copied the interfaces/libraries needed
-import { IUniversalRouter } from "src/IUniversalRouter.sol";
-import { Commands } from "src/Commands.sol";
+import { IUniversalRouter } from "universal-router/contracts/interfaces/IUniversalRouter.sol";
+import { Commands } from "universal-router/contracts/libraries/Commands.sol";
 
 import { IPoolManager } from "@uniswap/v4-core/src/interfaces/IPoolManager.sol";
 import { StateLibrary } from "@uniswap/v4-core/src/libraries/StateLibrary.sol";
